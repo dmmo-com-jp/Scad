@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>Scad-scratcher特定対策支援ツール</title>
-    </head>
-    <body>
-        <h1>sb3ファイル内の画像ファイルや音声ファイルを解析します。</h1>
-        <input type="file" id="fileInput" accept=".sb3">
-        <div id="result"></div>
-        <footer>
-            <div id="footer_text"><h2 id="big">scratcher特定対策支援ツール scad</h2>made by metaroro_dev</div>
-        </footer>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/jszip@3/dist/jszip.min.js"></script>
-    <script src="main.js"></script>
-    <script src="svg_.js"></script>
-    </html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scad-scratcher特定対策支援ツール</title>
+</head>
+
+<body>
+    <div id="main-contents">
+        <header>
+            <h1>Scratcher 特定対策支援ツール Scad</h1>
+        </header>
+        <main>
+            <div id="file-contents">
+                <p>sb3ファイル内の画像ファイルや音声ファイルを解析します。</p>
+                <input type="file" id="fileInput" accept=".sb3">
+                <label for="fileInput" class="select-file">ファイルを選択</label>
+            </div>
+            <div id="result"></div>
+        </main>
+    </div>
+    <footer>
+        <span>
+            Made by metaroro_dev
+        </span>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3/dist/jszip.min.js"></script>
+<script src="main.js"></script>
+<script src="svg_.js"></script>
+
+</html>
