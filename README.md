@@ -7,4 +7,4 @@ svgエディタで個人情報消すとかだと危険なことが良くある�
 pages:https://dmmo-com-jp.github.io/Scad/index.html
 
 ## ライセンス
-2025年9月1日以降はMITライセンスが適応されます。
+2025年9月1日以降の入手はMITライセンスが適応されます。
